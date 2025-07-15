@@ -181,34 +181,3 @@
       </p>
       <p>More on my GitHub: <a href = 'https://github.com/IshanIslam12' target="_blank" rel="noreferrer noopener">IshanIslam12</a></p>
     </section>
-
-     
-    <section id="guestbook" class="card">
-      <h2>Guestbook</h2>
-      <form id="guestbook-form">
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input type="text" id="message" placeholder="Your Message" required />
-        <button type="submit">Submit</button>
-      </form>
-      <div id="response"></div>
-    </section>
-    <script>
-      const form = document.getElementById('guestbook-form');
-      const responseDiv = document.getElementById('response');
-      form?.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        const message = document.getElementById('message').value;
-        const res = await fetch('/api/message', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, message })
-        });
-        const data = await res.json();
-        responseDiv.textContent = `Thanks ${data.name}, your message: "${data.message}" was received.`;
-        form.reset();
-      });
-    </script>
-  </main>
-</body>
-</html>
