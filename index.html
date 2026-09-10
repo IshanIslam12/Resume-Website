@@ -2,226 +2,653 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ishan Isalm - Webpage Resume</title> 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Ishan Islam — software engineering, AI/ML, data engineering, and analytics projects."
+  />
+
+  <title>Ishan Islam | Software Engineering & AI Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="my_website_style.css" />
 </head>
+
 <body>
 
-  <header class="hero">
-    <div class="overlay">
-      <h1>Ishan Islam</h1>
-      <p>
-        CS Graduate from LIU | GDG On Campus Vice President | Aspiring Data Scientist | Certified Google Data Analyst 
-      </p>
-      <nav>
-        <ul>
-          <a href="Ishan Islam CS Resume (4).pdf" class="pdf-button" target="_blank">Download my Resume</a>
-        </ul>
-        <p>You can also scroll down if you want</p>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="nav-container">
+
+      <a class="brand" href="#top">Ishan Islam</a>
+
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
       </nav>
+
     </div>
   </header>
 
- 
-  <main>
-    
-    <section id="about" class="card">
-      <h2>Professional Summary</h2>
-      <div class="about-container">
-        <p>
-         Hello, my name is Ishan Islam. I am a Computer Science Graduate from Long Island University (LIU).
-         I am an AI and Machine Learning fellow at Break Through Tech.
-         I am an aspiring Data Scientist with a passion for technology and a strong foundation in programming languages such as Python, SQL, and R.
 
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          Software Engineering • AI/ML • Data Engineering
         </p>
+
+        <h1>
+          Building production-ready software and data systems.
+        </h1>
+
+        <p class="hero-copy">
+          Computer Science graduate and Georgia Tech M.S. Analytics student
+          with hands-on experience in enterprise technology, machine learning,
+          REST APIs, data pipelines, cloud deployment, and full-stack
+          application development.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            class="button primary"
+            href="Ishan Islam CS Resume.docx (2).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Resume
+          </a>
+
+          <a
+            class="button secondary"
+            href="https://github.com/IshanIslam12"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/ishan-islam-5b009b258/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+        <div class="hero-meta">
+          <span>New York, NY</span>
+          <span>•</span>
+          <a href="mailto:ishanislam13@gmail.com">
+            ishanislam13@gmail.com
+          </a>
+        </div>
+
       </div>
+
     </section>
 
-    <section id="education" class="card">
-      <h2>Education</h2>
-      <div class="content">
-        <h3>Long Island University, Brooklyn, NY</h3>
-        <p>B.S. in Computer Science, Dec 2025</p>
-        <ul>
-          <li>GPA: 3.69/4.00</li>
-          <li>Vice President of CS Club</li>
-          <li>Vice President of Google Developer Group LIU</li>
-          <li>Dean's List Student</li>
-        </ul>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">Profile</p>
+        <h2>Professional Summary</h2>
       </div>
-    </section>
 
+      <div class="card">
 
-    <section id="experience" class="card">
-      <h2>Professional Experience</h2>
-      <div class="content">
-        <h3>Accenture | AI and Machine Learning Fellow</h3>
-      <p><em>Aug 2025 – Dec 2025</em></p>
-      <ul>
-        <li>Contributed to a fake news classification project, developing NLP pipelines and deep learning models to detect misinformation across large-scale datasets </li>
-        <li>Implement and fine-tune supervised learning models using scikit-learn, TensorFlow, and PyTorch, achieving measurable improvements in accuracy and precision.</li>
-        <li>Design data visualization dashboards with Python and Tableau to communicate model insights and performance metrics to both technical and non-technical stakeholders</li>
-        <li>Analyzed complex, unstructured datasets in a scientific-style workflow, using Python, Pandas, and ML models to derive insights and support decision-making</li>
-        <li>Assist in optimizing end-to-end ML workflows, including data cleaning, model training, hyperparameter tuning, and deployment in test environments.</li>
-        <li>Applied data analytics and statistical reasoning to classification, experimentation, and model evaluation, foundational skills used in scientific informatics</li>
-    </ul>
-        <h3>Break Through Tech | AI and Machine Learning Fellow</h3>
-        <p><em>Jun 2025 - Present</em></p>
-        <ul>
-          <li>Collaborate in cross-functional teams to design and implement machine learning solutions addressing real-world data challenges.</li>
-          <li>Conduct exploratory data analysis (EDA) to identify patterns, feature relationships, and potential predictive signals. </li>
-          <li>Engineered structured features from raw datasets to improve model interpretability and performance.</li>
-          <li>Build and evaluate supervised learning models using classification and regression techniques under industry mentorship.</li>
-          <li>Present analytical findings and model insights to peers and industry professionals in structured technical reviews.</li>
-          <li>Apply statistical reasoning and experimentation frameworks to evaluate model effectiveness and business relevance.</li>
-        </ul>
+        <p>
+          I am a Computer Science graduate from Long Island University and
+          a current M.S. Analytics student at Georgia Tech. My work spans
+          software engineering, artificial intelligence, machine learning,
+          analytics, data engineering, and enterprise technology operations.
+          I enjoy building end-to-end systems that combine APIs, databases,
+          automation, machine learning, and user-facing applications.
+        </p>
 
-
-        <h3>Long Island University | Techincal Assistant </h3>
-        <p><em>September 2023 – Dec 2025</em></p>
-        <ul>
-          <li>Diagnosed and resolved technical issues on computers to ensure optimal performance.</li>
-          <li>Coordinated with service providers to schedule equipment maintenance and repairs.</li>
-          <li>Performed software updates on library computers and confirmed proper hardware functionality.</li>
-        </ul>
-
-
-        <h3>Long Island University | Google Developer Group Vice President</h3>
-        <p><em>Sept 2024 - Dec 2025</em></p>
-        <ul>
-          <li>Streamlined student onboarding by automating email invitations through SMTP.</li>
-          <li>Secured hundreds of dollars in scholarships from BWOSS for club members, enabling them to obtain Google Career Certificates at no cost</li>
-          <li>Partnered with Major League Hacking to host successful hackathons with over 20 attendees.</li>
-        </ul>
       </div>
+
     </section>
 
-    
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-      <div class="content">
-        <h3>Fake News Classification Model</h3>
-        <p>Lead Data Scientist</p>
 
-        <ul>
-          <li>Developed text classification models using TF-IDF feature extraction and logistic regression.</li>
-          <li>Preprocessed and vectorized large-scale news datasets for binary misinformation detection</li>
-          <li>Evaluated model performance using precision, recall, and F1-score metrics.</li>
-          <li>Demonstrated ability to extract structured insights from unstructured textual data.</li>
-        </ul>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
 
-        <h3>Spotify Breakout Potential Analysis</h3>
-        <p>Lead Data Scientist</p>
-
-
-        <ul>
-          <li>Demonstrated ability to extract structured insights from unstructured textual data.</li>
-          <li>Applied logarithmic transformation and feature scaling to stabilize high-variance follower data.</li>
-          <li>Implemented K-Means clustering to segment artists into emerging, established, and underperforming tiers.</li>
-          <li>Interpreted segmentation results to simulate quantitative A&R-style talent discovery.</li>
-        </ul>
-
-        
-        <h3>TikTok Video Classification</h3>
-        <p>Lead Data Scientist</p>
-    
-        <ul>
-          <li>Eliminated 100% of inaccuracies in media details through data cleaning with the Python data stack (Pandas and Numpy)</li>
-          <li>Developed a classification model, using to predict whether TikTok video transcriptions were claims or opinions, based on text features</li>
-          <li>Tuned hyperparameters for Random Forest and XGBoost classifiers using GridSearchCV, optimizing for recall</li>
-          <li>Preprocessed text data by extracting numerical features using CountVectorizer.</li>
-          <li>Evaluated model performance through classification reports, confusion matrices, and feature importance plots, achieving strong recall and precision.</li>
-          <li>Evaluated model performance through classification reports, confusion matrices, and feature importance plots, achieving strong recall and precision.</li>
-          <li>The final model was deployed on test data, where the Random Forest model provided key insights into feature importance.</li>
-        </ul>
-
-        <h3>Waze Regression Analysis</h3>
-        <p>Lead Data Scientist</p>
-        <ul>
-          <li>Developed a logistic regression model to predict user churn based on driving behavior and app usage metrics</li>
-          <li>Cleaned and processed the dataset by handling missing values, scaling features, and capping outliers.</li>
-          <li>Through exploratory data analysis (EDA), including correlation heatmaps and descriptive statistics, I gained insights into the data.</li>
-          <li>Built and optimized a logistic regression model, evaluating its performance with metrics like precision, recall, F1-score, and a
-            confusion matrix</li>
-          <li>Created visualizations to determine results</li>
-        </ul>
-
-        <h3>Lightning Strike Analysis and Geological Graphing</h3>
-        <p>Lead Data Scientist</p>
-        <ul>
-          <li>Developed an interactive Tableau dashboard to analyze the frequency, intensity, and patterns of lightning strikes across various
-            geographical regions</li>
-          <li>Integrated geological maps to overlay environmental features such as elevation, vegetation, and proximity to water bodies,
-            correlating them with lightning activity.</li>
-          <li>Utilized advanced Tableau functionalities, including calculated fields, filters, and parameters, to enable real-time data exploration
-            and hypothesis testing.</li>
-          <li>Presented findings on lightning-prone areas, offering actionable insights for disaster preparedness and risk management strategies.</li>
-        </ul>
-  
-        
+      <div class="section-heading">
+        <p class="eyebrow">Work</p>
+        <h2>Experience</h2>
       </div>
+
+
+      <div class="timeline">
+
+        <!-- CON EDISON -->
+        <article class="card experience-card">
+
+          <div class="item-header">
+
+            <div>
+              <h3>Con Edison</h3>
+
+              <p class="role">
+                Tech Support Analyst
+                <span>• via Cognizant</span>
+              </p>
+            </div>
+
+            <p class="date">2026 – Present</p>
+
+          </div>
+
+          <ul>
+
+            <li>
+              Support enterprise technology operations by troubleshooting
+              software, hardware, network, authentication, and access issues
+              across end-user environments.
+            </li>
+
+            <li>
+              Manage incidents and service requests through ITSM workflows,
+              documenting resolutions and escalating complex issues to
+              specialized technical teams.
+            </li>
+
+            <li>
+              Analyze recurring incidents and operational trends to identify
+              patterns and support improvements to service reliability and
+              resolution processes.
+            </li>
+
+            <li>
+              Communicate technical findings and resolution status to
+              technical and non-technical stakeholders.
+            </li>
+
+          </ul>
+
+        </article>
+
+
+        <!-- ACCENTURE -->
+        <article class="card experience-card">
+
+          <div class="item-header">
+
+            <div>
+
+              <h3>Accenture</h3>
+
+              <p class="role">
+                AI & Machine Learning Engineer
+                <span>• Break Through Tech Industry Project</span>
+              </p>
+
+            </div>
+
+            <p class="date">Aug 2025 – Dec 2025</p>
+
+          </div>
+
+          <ul>
+
+            <li>
+              Developed an end-to-end NLP misinformation detection system
+              using Python, TF-IDF feature engineering, and supervised
+              machine learning.
+            </li>
+
+            <li>
+              Built reusable preprocessing and model-evaluation pipelines
+              using precision, recall, F1-score, and cross-validation.
+            </li>
+
+            <li>
+              Exposed trained model inference through a REST API and
+              integrated it with a web interface for real-time
+              classification.
+            </li>
+
+            <li>
+              Collaborated with a cross-functional team to iterate on model
+              performance and deliver a production-oriented AI application.
+            </li>
+
+          </ul>
+
+        </article>
+
+
+        <!-- BREAK THROUGH TECH -->
+        <article class="card experience-card">
+
+          <div class="item-header">
+
+            <div>
+              <h3>Break Through Tech</h3>
+              <p class="role">AI & Machine Learning Fellow</p>
+            </div>
+
+            <p class="date">Jun 2025 – 2026</p>
+
+          </div>
+
+          <ul>
+
+            <li>
+              Built machine-learning solutions across classification,
+              regression, NLP, and predictive analytics problems using
+              real-world datasets.
+            </li>
+
+            <li>
+              Developed data preprocessing, feature-engineering,
+              model-training, and evaluation workflows with Python,
+              Pandas, and scikit-learn.
+            </li>
+
+            <li>
+              Conducted experiments using statistical evaluation and
+              cross-validation to compare model performance and improve
+              generalization.
+            </li>
+
+            <li>
+              Presented technical findings and model decisions to mentors
+              and industry partners.
+            </li>
+
+          </ul>
+
+        </article>
+
+      </div>
+
     </section>
 
-    
-    <section id="certifications" class="card">
-      <h2>Certifications</h2>
-      <ul>
-        <li> <a href = 'https://www.linkedin.com/posts/ishan-islam-5b009b258_machinelearning-ai-datascience-activity-7363966357643690024-a4vz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9fZpQByoLljfOAk2AG9eUO85XbFYOVYAc' target = '_blank' rel = 'noopener noreferrer'> Brek Through Tech ML</a></li> 
-        <li><a href = 'https://www.coursera.org/account/accomplishments/verify/HGXRW6J1YC0A' target = '_blank' rel = 'noopener noreferrer'>Machine Learning </a></li>
-        <li><a href = 'https://www.coursera.org/account/accomplishments/verify/VKMTGZD9G85Y' target = '_blank' rel = 'noopener noreferrer'>Regression Analysis</a></li>
-        <li><a href = 'https://www.coursera.org/account/accomplishments/verify/AOPMGEM36T3T' target="_blank" rel="noopener noreferrer">Power of Statistics</a></li>
-        <li><a href = 'https://www.coursera.org/account/accomplishments/verify/VKMTGZD9G85Y' target = '_blank' rel = 'noopener noreferrer'>Foundations of Data Science</a></li>
-        <li><a href = 'https://www.coursera.org/account/accomplishments/verify/8JJ7PCK9ZVSB' target="_blank" rel="noopener noreferrer">Translate Data into Insights</a></li>
-      </ul>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects</h2>
+      </div>
+
+
+      <div class="project-grid">
+
+        <!-- NYC TRANSIT -->
+        <article class="card project-card featured">
+
+          <p class="project-label">
+            Full-Stack • Data Engineering
+          </p>
+
+          <h3>
+            NYC Real-Time Transit Analytics Platform
+          </h3>
+
+          <p class="stack">
+            React • TypeScript • FastAPI • PostgreSQL • Docker •
+            GitHub Actions • GTFS-Realtime
+          </p>
+
+          <ul>
+
+            <li>
+              Engineered and deployed a full-stack platform that ingests
+              real-time NYC subway GTFS feeds and provides live arrivals,
+              service alerts, station mapping, and historical reliability
+              analytics.
+            </li>
+
+            <li>
+              Built FastAPI REST endpoints and PostgreSQL/SQLAlchemy
+              persistence pipelines for historical train-arrival
+              prediction data.
+            </li>
+
+            <li>
+              Developed an interactive React dashboard with station search,
+              route filtering, Leaflet maps, and Recharts analytics.
+            </li>
+
+            <li>
+              Containerized the application with Docker and implemented
+              automated production data collection using GitHub Actions.
+            </li>
+
+          </ul>
+
+          <div class="project-links">
+
+            <a
+              href="https://github.com/IshanIslam12/nyc-transit-analytics"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://nyc-transit-analytics-1.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- AI DOCUMENT ASSISTANT -->
+        <article class="card project-card">
+
+          <p class="project-label">
+            AI • RAG
+          </p>
+
+          <h3>
+            AI Document Assistant
+          </h3>
+
+          <p class="stack">
+            Python • OpenAI API • FAISS • RAG • Streamlit
+          </p>
+
+          <ul>
+
+            <li>
+              Built and deployed a retrieval-augmented generation
+              application for context-aware question answering over
+              uploaded documents.
+            </li>
+
+            <li>
+              Implemented document chunking, vector embeddings,
+              FAISS similarity search, and retrieval pipelines before
+              LLM generation.
+            </li>
+
+            <li>
+              Integrated OpenAI APIs with a modular Python backend and
+              interactive Streamlit interface.
+            </li>
+
+          </ul>
+
+          <div class="project-links">
+
+            <a
+              href="https://github.com/IshanIslam12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on GitHub ↗
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- WILDFIRE -->
+        <article class="card project-card">
+
+          <p class="project-label">
+            Machine Learning
+          </p>
+
+          <h3>
+            Wildfire Survival Prediction
+          </h3>
+
+          <p class="stack">
+            Python • scikit-learn • Random Survival Forest • Pandas
+          </p>
+
+          <ul>
+
+            <li>
+              Developed a machine-learning pipeline to estimate wildfire
+              survival probabilities at 12-, 24-, 48-, and 72-hour
+              horizons.
+            </li>
+
+            <li>
+              Engineered predictive features from spatiotemporal data and
+              evaluated performance through iterative experimentation.
+            </li>
+
+            <li>
+              Achieved a Kaggle competition score of
+              <strong>0.90837</strong>.
+            </li>
+
+          </ul>
+
+        </article>
+
+      </div>
+
     </section>
 
-   
-    <section id="skills" class="card">
-      <h2>Tech Skills</h2>
-      <ul>
-        <li>Programming Languages: Python, R, SQL</li>
-        <li>Data Visualization: Matplotlib, Seaborn</li>
-        <li>Machine Learning Libraries: Scikit-learn, XGBoost</li>
-        <li>Development Tools: Jupyter Notebook, Git, GitHub, MySQL</li>
-        <li>Database Management: MySQL, MongoDB</li>
-      </ul>
 
-      <h2>Software</h2>
-      <ul>
-        <li>Tableau</li>
-        <li>PowerBI</li>
-        <li>Microsoft 365 (Excel, Word, Powerpoint etc.)</li>
-        <li>Anaconda</li>
-        <li>AWS</li>
-      </ul>
+    <!-- SKILLS -->
+    <section id="skills" class="section">
 
-      <h2>Strategical</h2>
-      <ul>
-        <li>Problem Solving</li>
-        <li>Communication</li>
-        <li>Teamwork</li>
-        <li>Analytical Thinking</li>
-        <li>Adaptability</li>
-        <li>Time Management</li>
-      </ul>
+      <div class="section-heading">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Technical Skills</h2>
+      </div>
+
+
+      <div class="skills-grid">
+
+        <div class="card skill-card">
+          <h3>Languages</h3>
+          <p>
+            Python, SQL, JavaScript, Java, HTML/CSS, PowerShell
+          </p>
+        </div>
+
+
+        <div class="card skill-card">
+          <h3>Frameworks & APIs</h3>
+          <p>
+            FastAPI, React, REST APIs, SQLAlchemy,
+            scikit-learn, Pandas
+          </p>
+        </div>
+
+
+        <div class="card skill-card">
+          <h3>AI & Machine Learning</h3>
+          <p>
+            NLP, RAG, LLM APIs, embeddings, FAISS,
+            classification, regression, clustering,
+            feature engineering, model evaluation
+          </p>
+        </div>
+
+
+        <div class="card skill-card">
+          <h3>Data & Databases</h3>
+          <p>
+            PostgreSQL, MySQL, SQLite, Google BigQuery,
+            ETL pipelines
+          </p>
+        </div>
+
+
+        <div class="card skill-card">
+          <h3>DevOps & Tools</h3>
+          <p>
+            Git, GitHub, GitHub Actions, Docker,
+            Docker Compose, Render, Streamlit, Linux
+          </p>
+        </div>
+
+
+        <div class="card skill-card">
+          <h3>Analytics</h3>
+          <p>
+            Tableau, Power BI, Excel, Matplotlib,
+            statistical analysis, EDA
+          </p>
+        </div>
+
+      </div>
+
     </section>
 
 
-    
-    <section id="contact" class="card">
-      <h2>Contact Information</h2>
-      <p>Email: <a href="mailto:emanberrouet@gmail.com">ishanislam13@gmail.com</a></p>
-      <p>
-        LinkedIn: <a href="https://www.linkedin.com/in/ishan-islam-5b009b258/" target="_blank">Ishan Islam</a>
-      </p>
-      <p>More on my GitHub: <a href = 'https://github.com/IshanIslam12' target="_blank" rel="noreferrer noopener">IshanIslam12</a></p>
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">Academic Background</p>
+        <h2>Education</h2>
+      </div>
+
+
+      <div class="education-grid">
+
+        <!-- GEORGIA TECH -->
+        <article class="card">
+
+          <div class="item-header">
+
+            <div>
+
+              <h3>
+                Georgia Institute of Technology
+              </h3>
+
+              <p class="role">
+                Master of Science, Analytics
+              </p>
+
+            </div>
+
+            <p class="date">
+              2026 – Present
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- LIU -->
+        <article class="card">
+
+          <div class="item-header">
+
+            <div>
+
+              <h3>
+                Long Island University
+              </h3>
+
+              <p class="role">
+                Bachelor of Science, Computer Science
+              </p>
+
+            </div>
+
+            <p class="date">
+              Sep 2022 – Dec 2025
+            </p>
+
+          </div>
+
+          <ul>
+            <li>GPA: 3.69 / 4.00</li>
+            <li>Cum Laude • Presidential Scholar</li>
+            <li>Vice President, Computer Science Club</li>
+            <li>Vice President, Google Developer Group</li>
+          </ul>
+
+        </article>
+
+      </div>
+
     </section>
 
 
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+
+      <div class="card contact-card">
+
+        <p class="eyebrow">
+          Let's Connect
+        </p>
+
+        <h2>
+          Interested in software, AI, and data opportunities.
+        </h2>
+
+        <div class="contact-links">
+
+          <a href="mailto:ishanislam13@gmail.com">
+            Email
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/ishan-islam-5b009b258/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/IshanIslam12"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
 
 
+  <footer>
+    <p>
+      © 2026 Ishan Islam. Built with HTML & CSS.
+    </p>
+  </footer>
 
-
-
+</body>
+</html>
